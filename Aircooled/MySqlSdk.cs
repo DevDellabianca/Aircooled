@@ -64,7 +64,6 @@ namespace WindowsFormsApp2
         {
             try
             {
-                //MessageBox.Show(sql.ToString()); //coloca em tela a query
                 MySqlCommand cmd = new MySqlCommand(sql, _objcon);
                 MySqlDataAdapter da = new MySqlDataAdapter();
                 da.SelectCommand = cmd;
